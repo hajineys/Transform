@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{e02578d5-03f5-4323-8c6f-96f104c6e09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{b9a64b85-1cf9-426f-a960-86be8ef4799a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\CollisionObject">
+      <UniqueIdentifier>{da7ed98e-5ea8-43ea-ba0a-17ab6c7ce96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\CollisionObject\Rect">
+      <UniqueIdentifier>{879e6987-a9e8-49ad-965b-92b2b653e815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\CollisionObject\Circle">
+      <UniqueIdentifier>{74be9380-5645-40ab-b80c-09a0332f6537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CVector">
+      <UniqueIdentifier>{f8539b3f-c452-4f0a-a4ee-88108833eda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMatrix">
+      <UniqueIdentifier>{0e6c00ac-c895-4f5a-b078-685f4b42f895}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PenguinSquad.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>GameObject\CollisionObject\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>GameObject\CollisionObject\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrix.h">
+      <Filter>CMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector.h">
+      <Filter>CVector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PenguinSquad.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>GameObject\CollisionObject\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>GameObject\CollisionObject\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrix.cpp">
+      <Filter>CMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector.cpp">
+      <Filter>CVector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PenguinSquad.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PenguinSquad.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
